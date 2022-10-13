@@ -1,15 +1,30 @@
-body{ background-color: #eee6e6;
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Indie+Flower&family=Montserrat:wght@300&display=swap');
+
+body{ 
+    background-color: #eee6e6;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
 
 }
+h2 {
+    margin: 0;
+}
+
 #content{max-width: 1600px;
          margin:0 auto;   
 }
 header{
-     background-color :#767e839f;
+     background-color :#424445;
      
 }
 #hero-img{
     width : 100%;
+}
+#logo_link{
+
+    padding-top: 5px;
 }
 .logo{
     width:80px;
@@ -18,6 +33,7 @@ nav a{
     text-align: center;
     color:#fbfbfb;
     text-decoration: none;
+    padding: 35px;
 
 }
 nav a:hover{
@@ -34,25 +50,46 @@ nav a:hover{
 }
 .home-title {
     color:#396E94;
+    font-family: 'Courgette','Arial', 'sans-serif';
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4{
-    color : #5e6163;
+    color : #37393a;
  
 }
-.book{
+.book,.join{
     background-color:#396E94;
     color : #faf9f7;
     text-decoration : none;
+    font-size:18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+
+
 }
-.join{
-    background-color:#396E94;
-    color : #faf9f7;
-    text-decoration : none;
+main section img {
+    box-sizing: border-box;
+
 }
+.rivers-card{
+    margin: 200px 0;
+}
+.camping-card{
+    margin: 200px 0;
+  }
+
+.rapids-card{
+    margin: 200px 0;
+
+ } 
+ .card-img{
+    border: 10px solid #0d0d0d; 
+}
+
 .book:hover {
     color : #ff9f1c;
-
-
 }
 .join:hover{
     color : #ff9f1c;
@@ -64,6 +101,8 @@ h4{
 }
 .icon{
     width:80px;
+    padding-top: 10px;
+
 }
 main section{
     text-align: center;
@@ -75,35 +114,50 @@ main section{
 }
 .msg{
     
-    background-color:#767e839f;
+    background-color :#50585c;
+    line-height: 1.5em;
+    padding: 35px;
      
 }
 .msg h2{
      color:#396E94;
-    
-    
-}
+     font-family: 'Courgette', 'sans-serif','Arial' ;
+    }
 .msg p{
     color :#fcfdfd;
+    font-size: .8em;
+    padding-bottom: 15px;
     
+}
+footer{
+    background-color :#424445;
+    padding: 25px 50px;
+    margin-top: 200px;
+
 }
 
 footer p {
     font-size: 1.2em;
 } 
-footer{
-    background-color :#767e839f;
-}
+
 footer h3{
-    color:#396E94;
+    color:#6d777e;
+
+}
+footer p{
+    color :#fcfdfd;   
 
 }
 footer a{
-    color:#396E94;
+    color :#fcfdfd;   
     text-decoration : none;
 }
 footer a:hover{
-    color : #fdfbf9;
+    color : #ff9f1c;
+
+}
+footer .social img{
+    padding-top: 15px;
 
 }
 footer p a:hover {
