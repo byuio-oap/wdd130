@@ -115,17 +115,17 @@ main section{
 }
 .msg{
     
-    background-color :#50585c;
+    background-color :rgb(245,227,138);
     line-height: 1.5em;
     padding: 35px;
      
 }
 .msg h2{
-     color:#f2f6f9;
+     color:#223776;
      font-family: 'Courgette', 'Arial ','sans-serif' ;
     }
 .msg p{
-    color :#fcfdfd;
+    color :#223776;
     font-size: .8em;
     padding-bottom: 15px;
     
@@ -154,7 +154,7 @@ footer a{
     text-decoration : none;
 }
 footer a:hover{
-    color : #ff9f1c;
+    color : rgb(245,227,138);
 
 }
 footer .social img{
