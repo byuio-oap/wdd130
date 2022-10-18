@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Indie+Flower&family=Montserrat:wght@300&display=swap');
 
 body{ 
-    background-color: #eee6e6;
+    background-color: #e6eee8;
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
@@ -16,7 +16,7 @@ h2 {
          margin:0 auto;   
 }
 header{
-     background-color :#424445;
+     background-color :#424542;
      
 }
 #hero-img{
@@ -37,8 +37,8 @@ nav a{
 
 }
 nav a:hover{
-    background-color:#e6efee;
-    color : #ff9f1c;
+    background-color:#6dbfb8;/*a8f4b5*/
+    color : #090101;
 
 }
 
@@ -59,8 +59,8 @@ h4{
  
 }
 .book,.join{
-    background-color:#396E94;
-    color : #faf9f7;
+    background-color:#6dbfb8;
+    color : #090101;
     text-decoration : none;
     font-size:18px;
     padding: 15px 30px;
@@ -89,10 +89,11 @@ main section img {
 }
 
 .book:hover {
-    color : #ff9f1c;
+    color : #06065c;
+    
 }
 .join:hover{
-    color : #ff9f1c;
+    color : #06065c;
 }
 
 
@@ -120,8 +121,8 @@ main section{
      
 }
 .msg h2{
-     color:#396E94;
-     font-family: 'Courgette', 'sans-serif','Arial' ;
+     color:#f2f6f9;
+     font-family: 'Courgette', 'Arial ','sans-serif' ;
     }
 .msg p{
     color :#fcfdfd;
