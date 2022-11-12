@@ -233,8 +233,198 @@ footer p a:hover {
     text-decoration: underline;
 } 
 
+/*CSS for rivers.html starts here................................*/
+#hero-river{
+    display:grid;
+    grid-template-columns:repeat(6, 1fr);
+    margin-top: -100px;
+}
+#hero-img-river
+{
+    width: 100%;
+    overflow: hidden;
+}
+#hero-box-river{
+    grid-column:1/7;
+    grid-row: 1/7;
+    z-index: -1;
+}
+.msg-river{
+    grid-column:4/7;
+    grid-row: 2/4;
+    background-color :rgba(245, 227, 138, 0);
+    line-height: 1.5em;
+    padding: 10px;
+    /*box-shadow: 5px 5px 10px #6f7364;*/
+    margin:20px;
+    text-align: center;
+    border-radius: 55px;
+    overflow: hidden;
+
+
+}
+.msg-river h2{
+    color:#f2f4f8;
+    font-family: 'Courgette', 'Arial ','sans-serif' ;
+}
+.msg-river p {
+    color :#f2f3f6;
+    font-size: 1em;
+    font-weight:bolder;
+    overflow: hidden;
+    
+    
+}
+.join-river{
+    background-color:#6dbfb8;
+    color : #090101;
+    text-decoration : none;
+    font-size:18px;
+    padding: 5px;
+    border-radius: 5px;
+}
+/*The Gran Canon styles........................................*/
+#river-grid{
+    display: grid;
+    grid-template-columns: repeat(18,1fr);
+}
+#river-img {
+    grid-column: 2/8;
+    grid-row:3/8;
+    background-color:red;
+    width:100%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+/*Grid for information  details...............................*/
+#river-info{
+    background-color:#6dbfb8a8;/*rgb(179, 224, 242);*//*#6dbfb8;*/
+    grid-column: 3/18;
+    grid-row: 1/10;
+    z-index: -1;
+    box-shadow: 15px 20px 20px #6f73645b;
+    display:grid;
+    grid-template-columns: repeat(8 ,1fr)
+
+    
+}
+.river-article-day{
+    grid-column:4/5;
+    grid-row: 3/4;
+}
+.river-article-date{
+    grid-column:4/7;
+    grid-row: 4/5;
+
+
+}
+.river-title{
+    grid-column:4/7;
+    grid-row:5/6;
+}
+
+.river-text{
+    grid-column:4/8;
+    grid-row:6/9;
+    font-size:0.875rem;
+    letter-spacing:0.1rem;
+    font-weight: 600;
+    color:#1f2022;
+    text-decoration: none;
+
+}
+.river-btn-readmore{
+    grid-column: 4/5;
+    grid-row:9/10;
+    background-color :rgba(245, 227, 138, 0.834);
+    color : #071956;
+    text-decoration : none;
+    font-size:15px;
+    padding: 10px 10px 10px 5px;
+    border-radius: 5px;
+    margin: 15px;
+    font-weight: bold;
+    overflow: hidden;
+    
+
+}
+.river-btn-readmore:hover{
+    background-color:#06065c;
+}
+
+
+/*Three River details...................................*/
+
+.three-rivers-site-container{
+    margin:2rem auto;
+    
+
+}
+.three-river-articles-container{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    /*grid-template-columns:repeat(auto-fill,minmax(256px,1fr));*/
+    gap: 2rem;
+}
+
+.three-article-image{
+    margin:0;
+    padding:0;
+    overflow:hidden;
+}
+.three-article-card{
+    background-color:rgba(142, 142, 62, 0.149);
+    border-radius: 20px;
+    transition:0.3s;
+
+}
+    
+
+.three-river-articles-container article figure img{
+width: 100%;  
+height: auto;
+border-radius: 20px 20px 0 0;  
+}
+.three-article-card:hover{
+    box-shadow: 0 40px 20px 0 rgba(34,68,123,0.2);
+    cursor: pointer;
+}
+.three-article-content{
+    padding:2rem;
+}
+.three-article-content .three-card-category{
+    font-size:0.875rem;
+    text-transform: uppercase;
+    letter-spacing:0.1rem;
+    font-weight: 600;
+    color:#1357c4;
+    display: block;
+    text-decoration: none;
+}
+.three-article-content .three-card-title{
+      margin:1rem 0;
+      color:#22447b;
+}
+.three-article-content .there-card-excerpt{
+    font-size:1rem;
+    line-height:1.5rem;
+    color:#0606f4;
+    margin:0;
+
+
+}
+
 
 @media screen and (max-width: 900px) {
+    /*Three starts*/
+    .three-river-articles-container{
+        max-width:740px;
+    }
+    .three-article-card{
+        display:grid;
+        grid-template-columns:220px 1fr;
+    }
+    /*Three end*/
     #hero, .home-grid {
         display: block;
         height: auto;
