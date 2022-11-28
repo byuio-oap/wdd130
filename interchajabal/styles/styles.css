@@ -27,6 +27,8 @@ body{
 nav{
     grid-column:4/9;
     display:flex;
+    align-items: center;
+    justify-content: center;
     justify-content:space-around;
     
 }
@@ -35,13 +37,19 @@ nav a{
     text-align: center;
     color:#060606;
     text-decoration: none;
-    padding: 35px;
+    border:solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: #690e0f;
+    padding:5px 3px 3px 5px;
+    
+    /*padding: 35px;*/
 
 }
 nav a:hover{
     
     color :#fdfffe;
-    border-radius: 5px 5px 5px 5px;
+    background-color:green;
     
 
 }
