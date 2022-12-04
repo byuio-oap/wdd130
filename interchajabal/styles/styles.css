@@ -350,9 +350,9 @@ height: auto;
 }
 .package-title{
         margin: 0px;
-        font-size: 100px;
+        font-size: 80px;
         font-family: Arial, Helvetica, sans-serif;   
-        letter-spacing: px;
+        letter-spacing: 3px;
         color: white;
         display:grid;
         justify-items: center;
